@@ -155,7 +155,7 @@ The Theme Generator performs the following tasks:
 3. Generates several permutations (6 for now) of colors for the theme, doom
    theme, or modus theme. It creates several new files.
 
-* License
+## License
 
 This project is licensed under the [MIT
 License](https://opensource.org/licenses/MIT).
