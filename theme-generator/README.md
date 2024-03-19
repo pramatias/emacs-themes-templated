@@ -1,4 +1,4 @@
-#TITLE: Theme Generator
+# Theme Generator
 
 ## Introduction
 
