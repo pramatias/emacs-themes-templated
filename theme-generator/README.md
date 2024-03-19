@@ -83,7 +83,7 @@ emacs5-theme.el
 emacs6-theme.el
 ```
 
-## Note
+## Known Bugs 
 The json file has to have at least 10 colors, or it will crash.
 The program has to be recompiled to work for doom themes, right now it has 
 the option to generate only modus themes, the function to generate doom themes
