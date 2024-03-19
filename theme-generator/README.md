@@ -11,12 +11,12 @@ The user has to open the theme he desires to create color permutations from
 and replace the name of the theme with srgn-name and the color information
 with srgn-color.
 
-;; Replace:
+-Replace:
 
 ``` emacs-lisp
 (deftheme modus-vivendi-tinted
 ```
-;; With:
+-With:
 
 ``` emacs-lisp
 (deftheme srgn-name
