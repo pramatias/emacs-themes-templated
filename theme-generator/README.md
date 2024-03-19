@@ -90,7 +90,7 @@ the option to generate only modus themes, the function to generate doom themes
 has to be uncommented, and the function to generate modus themes has to be commented
 to work for doom themes. 
 
-* Dependencies
+## Dependencies
 
 This project has the following dependencies:
 
