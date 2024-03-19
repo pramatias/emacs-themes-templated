@@ -119,7 +119,7 @@ The command-line interface supports the following options:
 - `-j, --json <PATH>`: Path to the JSON file containing color information.
 - `-f, --file <PATH>`: Path to the input Emacs theme file (`name-theme.el`).
 
-* Input
+## Input
 
 The Theme Generator requires two input files:
 
