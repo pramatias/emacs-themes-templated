@@ -1,6 +1,6 @@
-#+TITLE: Theme Generator
+#TITLE: Theme Generator
 
-* Introduction
+## Introduction
 
 "Theme Generator," is designed to automate the process
 of generating color themes for Emacs. It relies on the `srgn` command-line
@@ -126,7 +126,7 @@ The Theme Generator requires two input files:
 1. `name-theme.el`: An Emacs theme file ending in `-theme.el`.
 2. `colors.json`: A JSON file containing color information in the following format:
 
-#+BEGIN_EXAMPLE
+``` json
 {
   "dominant_color": "#9f3733",
   "palette": [
@@ -141,9 +141,10 @@ The Theme Generator requires two input files:
     "#9d8895"
   ]
 }
-#+END_EXAMPLE
 
-* Output
+```
+
+## Output
 
 The Theme Generator performs the following tasks:
 
