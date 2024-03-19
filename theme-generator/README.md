@@ -97,7 +97,7 @@ This project has the following dependencies:
 - srgn 
 [srgn](https://github.com/alexpovel/srgn): Code Surgeon 
 
-* Usage
+## Usage
 
 To use the Theme Generator, follow these steps:
 
