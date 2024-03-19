@@ -11,18 +11,18 @@ The user has to open the theme he desires to create color permutations from
 and replace the name of the theme with srgn-name and the color information
 with srgn-color.
 
--Replace:
+Replace:
 
 ``` emacs-lisp
 (deftheme modus-vivendi-tinted
 ```
--With:
+With:
 
 ``` emacs-lisp
 (deftheme srgn-name
 ```
 
-;; Replace for modus themes:
+Replace for modus themes:
 
 ``` emacs-lisp
 
@@ -37,13 +37,13 @@ with srgn-color.
 
 
 ```
-;; With:
+With:
 
 ``` emacs-lisp
 srgn-color
 ```
 
-;; Replace for doom themes:
+Replace for doom themes:
 
 ``` emacs-lisp
   ((bg      '("#33261d"))
@@ -59,7 +59,7 @@ srgn-color
 (base8      '("#94918c"))
 ```
 
-;; With:
+With:
 
 ``` emacs-lisp
 srgn-color
