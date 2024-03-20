@@ -2,6 +2,8 @@
 
 See -> [Theme Generator](theme-generator/)
 
+Modus-vivendi-tinted variations and monokai-spectrum
+
 ## empack1-modus-vivendi-tinted-theme.el
 ![empack1-modus-vivendi-tinted-theme](images/empack1-modus-vivendi-tinted-theme.png)
 ## empack2-modus-vivendi-tinted-theme.el
