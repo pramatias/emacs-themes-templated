@@ -1,5 +1,7 @@
 # Emacs themes generated with the theme-generator.
 
+[Theme Generator](theme-generator/README.md)
+
 ## empack1-modus-vivendi-tinted-theme.el
 ![empack1-modus-vivendi-tinted-theme](images/empack1-modus-vivendi-tinted-theme.png)
 ## empack2-modus-vivendi-tinted-theme.el
