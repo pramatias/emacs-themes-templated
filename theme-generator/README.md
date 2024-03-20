@@ -68,7 +68,9 @@ srgn-color
 ## Note
 Inside the theme, all occurences of the original name, have to be replaced
 with srgn-name. The generated name is derived from the filename it gets as 
-a seed for the permutations with the -f flag. ## Known Bugs 
+a seed for the permutations with the -f flag. 
+
+## Known Bugs 
 The json file has to have at least 10 colors, or it will crash.
 The program has to be recompiled to work for doom themes, right now it has 
 the option to generate only modus themes, the function to generate doom themes
