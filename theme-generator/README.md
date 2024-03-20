@@ -67,23 +67,8 @@ srgn-color
 
 ## Note
 Inside the theme, all occurences of the original name, have to be replaced
-with srgn-name. The name is derived from the original filename it gets as 
-a seed for the permutations with the -f flag. It generates new names for the 
-new files. It generates 6 new files, with new names like that:
-
-
-```bash
-theme-generator -f emacs-theme.el -j colors.json 
-emacs0-theme.el
-emacs1-theme.el
-emacs2-theme.el
-emacs3-theme.el
-emacs4-theme.el
-emacs5-theme.el
-emacs6-theme.el
-```
-
-## Known Bugs 
+with srgn-name. The generated name is derived from the filename it gets as 
+a seed for the permutations with the -f flag. ## Known Bugs 
 The json file has to have at least 10 colors, or it will crash.
 The program has to be recompiled to work for doom themes, right now it has 
 the option to generate only modus themes, the function to generate doom themes
@@ -105,13 +90,13 @@ To use the Theme Generator, follow these steps:
 2. Compile and build the Rust project.
 
 ``` bash
-cargo build --release
+$ cargo build --release
 ```
 
 3. Run the executable with the necessary arguments.
 
 ``` bash
-theme-generator/target/release/theme-generator -f name-theme.el -j colorthief_output.json
+$ theme-generator/target/release/theme-generator -f name-theme.el -j colorthief_output.json
 ```
 
 The command-line interface supports the following options:
@@ -153,7 +138,21 @@ The Theme Generator performs the following tasks:
 2. Replaces occurrences of `srgn-colors` in the `name-theme.el` file with the
    colors found in the `colors.json` file.
 3. Generates several permutations (6 for now) of colors for the theme, doom
-   theme, or modus theme. It creates several new files.
+   theme, or modus theme. It creates several new files. It generates automatically
+   names for the new files. It generates 6 new files, with new names like that:
+
+
+```bash
+$ theme-generator -f emacs-theme.el -j colors.json 
+emacs0-theme.el
+emacs1-theme.el
+emacs2-theme.el
+emacs3-theme.el
+emacs4-theme.el
+emacs5-theme.el
+emacs6-theme.el
+```
+
 
 ## License
 
