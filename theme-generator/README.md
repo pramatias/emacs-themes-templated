@@ -81,6 +81,9 @@ This project has the following dependencies:
 
 - srgn 
 [srgn](https://github.com/alexpovel/srgn): Code Surgeon 
+- colorthief's output is given into theme-generator's input
+[colorthief](https://github.com/pramatias/emacs-themes-templated/tree/main/colorthief): Colorthief 
+
 
 ## Usage
 
