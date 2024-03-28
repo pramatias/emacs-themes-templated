@@ -20,6 +20,8 @@ color-permute -f modus-theme.el -r red -b blue
 
 ```
 ### Options
+
+``` sh
 -f, --file: Specifies the input file.
 -r, --red: Specifies the red color.
 -g, --green: Specifies the green color.
@@ -28,7 +30,7 @@ color-permute -f modus-theme.el -r red -b blue
 -m, --magenta: Specifies the magenta color.
 -c, --cyan: Specifies the cyan color.
 -a, --all: Use all colors.
-
+```
 ## Installation
 
 To use Color Permute, you need to have Rust installed. You can install it using Rust's package manager, Cargo:
