@@ -4,7 +4,7 @@ Color Permute is a command-line utility for processing color permutations.
 It requires two colors as an input, and a modus file. All six colors can be included 
 by using the -a flag
 
-##Usage 
+## Usage 
 
 ### Permute all colors in a modus file
 
