@@ -40,5 +40,5 @@ cargo build --release
 cp target/release/color-permute ~/.local/bin/
 ```
 
-##License
+## License
 This project is licensed under the MIT License
